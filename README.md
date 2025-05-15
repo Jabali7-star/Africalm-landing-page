@@ -1,1 +1,1 @@
-# mindmate-landing-page
+# Africalm-landing-page
