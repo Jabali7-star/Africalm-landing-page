@@ -2,76 +2,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Africalm – Mental Wellness for Africa</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
- <style>
-    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f1f9ff; color: #333; }
-    header { background: #2196F3; color: white; padding: 2rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin-top: 0.5rem; }
-    .section { padding: 2rem; max-width: 1000px; margin: auto; }
-    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-    .feature { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); }
-    .feature h3 { color: #2196F3; }
-    .cta { text-align: center; margin-top: 3rem; }
-    .cta button { background: #4CAF50; color: white; padding: 1rem 2rem; font-size: 1.1rem; border: none; border-radius: 8px; cursor: pointer; }
-    footer { text-align: center; padding: 1rem; background: #e3f2fd; font-size: 0.9rem; }
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
- </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Africalm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 10px;
+      color: #004c3f;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      color: #004c3f;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .features {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .features h3 {
+      margin-top: 20px;
+      color: #0077b5;
+    }
+
+    .cta-button {
+      margin-top: 30px;
+      padding: 12px 30px;
+      background-color: #0077b5;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background-color: #005b8a;
+    }
+
+    .social-footer {
+      text-align: center;
+      padding: 20px;
+      background: #f5f5f5;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #0077b5;
+    }
+
+    .contact-info {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+      }
+
+      .social-icons a {
+        font-size: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Africalm </h1>
-    <p>Your pocket companion for peace of mind</p>
+    <img src="Africalm.png" alt="Africalm Logo">
+    <h1>Africalm</h1>
+    <p class="tagline">Your pocket companion for peace of mind</p>
   </header>
 
   <section class="section">
     <h2>Why Africalm?</h2>
     <p>Millions in Africa face stress and anxiety without daily mental health support. Africalm provides affordable, AI-powered tools for journaling, breathing, and goal tracking — all from your smartphone.</p>
-
+    
     <div class="features">
-      <div class="feature">
-        <h3>Daily Mood Check-ins</h3>
-        <p>Track how you feel each day and see trends over time.</p>
-      </div>
-      <div class="feature">
-        <h3>AI Journaling</h3>
-        <p>Write or speak your thoughts. Our AI helps you reflect and grow.</p>
-      </div>
-      <div class="feature">
-        <h3>Guided Breathing</h3>
-        <p>Instant calm in your pocket with 1–5 minute breathing exercises.</p>
-      </div>
-      <div class="feature">
-        <h3>Goal Tracking</h3>
-        <p>Set and stick to habits like water intake, sleep, and gratitude.</p>
-      </div>
+      <h3>Daily Mood Check-ins</h3>
+      <p>Track how you feel each day and see trends over time.</p>
+
+      <h3>AI Journaling</h3>
+      <p>Write or speak your thoughts. Our AI helps you reflect and grow.</p>
+
+      <h3>Guided Breathing</h3>
+      <p>Instant calm in your pocket with 1–5 minute breathing exercises.</p>
+
+      <h3>Goal Tracking</h3>
+      <p>Set and stick to habits like water intake, sleep, and gratitude.</p>
     </div>
 
-    <div class="cta">
-      <p>Launching soon on Android! Be the first to access the app.</p>
-      <button>Join the Waitlist</button>
-    </div>
+    <p style="margin-top: 30px;">🚀 Launching soon on Android! Be the first to access the app.</p>
+    <a href="#" class="cta-button">Join the Waitlist</a>
   </section>
 
-  <footer>
+  <footer class="social-footer">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/Africalm" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/Africalm" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/Africalm" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.x.com/Africalm" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.tiktok.com/@Africalm" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+    <div class="contact-info">
+      📍 Nairobi, Kenya | 📧 <a href="mailto:africalm@founders.africa">africalm@founders.africa</a>
+    </div>
   </footer>
-<!-- === Africalm Footer === -->
-<div class="social-footer">
-  <div class="social-icons">
-    <a href="https://www.instagram.com/Africalm" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/in/Africalm" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://www.facebook.com/Africalm" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.x.com/Africalm" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://www.tiktok.com/@Africalm" target="_blank"><i class="fab fa-tiktok"></i></a>
-  </div>
-  <div class="contact-info">
-    📍 Nairobi, Kenya | 📧 <a href="mailto:africalm@founders.africa">africalm@founders.africa</a>
-  </div>
-</div>
-<!-- === End Footer === -->
+
 </body>
 </html>
